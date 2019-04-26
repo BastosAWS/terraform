@@ -4,9 +4,7 @@ provider "aws" {
 
 
 ressource "aws.aws_vpc" "main" {
-
     cidr_block  ="10.0.0.0/16"
-
 }
 
 resource "aws.aws_subnet" "pub_subnet" {
